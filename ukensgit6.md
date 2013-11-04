@@ -1,4 +1,4 @@
-#  - Ukens GIT #6
+# Reflog - Ukens GIT #6
 
 De gangene man bæsjer på leggen med git kan det være en trøst at det egentlig er skikkelig vanskelig å miste data eller gjøre uopprettelig skade. Som regel skal det et par tre skikkelige brølere til på rad før du faktisk har ødelagt noe. Reflog er en mekanisme i git som holder rede på alle endringene du gjør (commits, checkouts, (hard) resets, osv) i et gitt antall dager (ca 1 mnd).
 
