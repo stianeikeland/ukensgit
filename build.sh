@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rm ukens*.html
+
 echo "<html><body>" > index.html
 
 for f in *.md; do
@@ -14,3 +16,4 @@ done
 echo "</body></html>" >> index.html
 
 cp *.html /Users/se/Dropbox/Public/ukensgit/
+cp -r resources /Users/se/Dropbox/Public/ukensgit/
