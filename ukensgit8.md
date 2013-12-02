@@ -1,6 +1,6 @@
 # Rerererererererererere - Ukens GIT #8
 
-Løser du noen gang de samme merge/rebase-konfliktene flere ganger? Git har en funksjon som ved navn rerere (reuse recorded resolution). Den kan brukes manuelt før og etter du løser en konflikt ved å kjøre kommandoen `git rerere`, men kan også aktiveres globalt (alltid aktiv).
+Løser du noen gang de samme merge/rebase-konfliktene flere ganger? Git har en funksjon ved navn rerere (reuse recorded resolution). Den kan brukes manuelt før og etter du løser en konflikt ved å kjøre kommandoen `git rerere`, men kan også aktiveres globalt (alltid aktiv).
 
 	# Aktiver git rerere:
 	$ git config --global rerere.enabled 1
